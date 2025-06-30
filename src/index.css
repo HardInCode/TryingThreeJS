@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+@tailwind utilities;
+
+/* HomeInfo.css */
+.poppins-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins-font h1 {
+  font-weight: 600; /* Semi-bold */
+}
+
+.poppins-font p {
+  font-weight: 400; /* Regular */
+}
+
+.space-grotesk {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.space-grotesk h1 {
+  font-weight: 700; /* Bold */
+} 
+.space-grotesk p {
+  font-weight: 400; /* Regular */
+}
+
+html {
+    height: 100%;
+    overflow-y: auto;
+}
+
+body {
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+/* Make sure your main container allows scrolling */
+.main-container {
+    min-height: 100vh;
+    overflow-y: visible;
+}
